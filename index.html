@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- map -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <!-- Start cookieyes banner --> 
+    <script id="cookieyes" type="text/javascript" src="https://cdn-cookieyes.com/client_data/b98d13cc5ae14307f50f675f/script.js"></script> <!-- End cookieyes banner -->
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./asset/icon.png" sizes="16x16">
+    <title>Taberna Ever | Bar y Café</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="text-decoration-none">
+            <img src="./asset/logo.png" alt="Taberna Ever" class="logo"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#menu-comida" class="text-decoration-none">La Carta</a></li>
+            <li><a href="#menu-bebida" class="text-decoration-none">Bebida</a></li>
+            <li><a href="#contacto" class="text-decoration-none">Contacto</a></li>
+        </ul>
+    </header>
+    
+    <!-- Home Section -->
+    <section class="main" id="main">
+        <div class="main-text">
+            <h3 class="main-text--h3">El bar acogedor carca de ti.</h3>
+        </div>
+        <!-- foto -->
+        <div id="foto" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="asset/bar1.jpeg" class="d-block w-100" alt="Taberna ever">
+            </div>
+            <div class="carousel-item">
+                <img src="asset/bar2.jpeg" class="d-block w-100" alt="Taberna Ever">
+            </div>
+            <div class="carousel-item">
+                <img src="asset/bar3.jpeg" class="d-block w-100" alt="Bar Ever">
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- MENU -->
+    <div class="menu">
+        <section class="menu-comida" id='menu-comida'>
+            <!-- comida -->
+            <h2 class="menu-name">La Carta</h2>
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-1">
+                <label for="collapsible-1" class="menu-label">Desayuno</label>
+                <div class="collapsible-text">
+                    <div class="menu-price">
+                        <h5>Bollería + cáfe</h5>
+
+                        <h5>2.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Churros + chocolate</h5>
+
+                        <h5>2.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Tostada tomate y aceite + café</h5>
+
+                        <h5>2.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Tostada mantequilla y mermelada + café</h5>
+
+                        <h5>2.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Tostada tomate y jamón + cáfe</h5>
+
+                        <h5>3.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>con zumo de naranja exprimido</h5>
+
+                        <h5>+1.5</h5>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-2">
+                <label for="collapsible-2" class="menu-label">Tapas</label>
+                <div class="collapsible-text">
+                    <div class="menu-price">
+                        <h5>Tosta de salmón ahumado</h5>
+
+                        <h5>3.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Tosta de anchoa con tomate</h5>
+
+                        <h5>3.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Tosta de boqueron con aceituna</h5>
+
+                        <h5>3.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Pincho de tortilla de patata</h5>
+
+                        <h5>3.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Las bravas EVER</h5>
+
+                        <h5>4</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Patata gajo especiada</h5>
+
+                        <h5>4</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Patata frita con bacon y queso</h5>
+
+                        <h5>4</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Patata frita con longaniza</h5>
+
+                        <h5>5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Morro Frito</h5>
+
+                        <h5>5.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Oreja a la plancha</h5>
+
+                        <h5>5.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Croqueta de pollo (6u.)</h5>
+
+                        <h5>4</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Croqueta de jamón (6u.)</h5>
+
+                        <h5>4</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Buñuelo de bacalao</h5>
+
+                        <h5>4.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Nuggets</h5>
+
+                        <h5>4.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Palitos de pollo</h5>
+
+                        <h5>4.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Palitos de merluza</h5>
+
+                        <h5>5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Calamares a la romana</h5>
+
+                        <h5>6.5</h5>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-3">
+                <label for="collapsible-3" class="menu-label">Bocadillos</label>
+                <div class="collapsible-text">
+                    <div class="menu-price">
+                        <h5>Almussafes</h5>
+
+                        <h5>4</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Tortilla</h5>
+
+                        <h5>4</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Campero</h5>
+
+                        <h5>4</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>El Blanco y Negro</h5>
+
+                        <h5>4.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Serranito</h5>
+
+                        <h5>4.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Chivito</h5>
+
+                        <h5>5.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Brascada</h5>
+
+                        <h5>5.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Calamares</h5>
+
+                        <h5>6</h5>
+                    </div>
+                    
+                    <div class="menu-price">
+                        <h5>extra bacon/queso/huevo/patata frita</h5>
+
+                        <h5>+0.5</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-11">
+                <label for="collapsible-11" class="menu-label">Platos Asiaticos</label>
+                <div class="collapsible-text">
+                    <div class="menu-price">
+                        <h5>Edamame al vapor</h5>
+
+                        <h5>3.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Rollito primavera (4u.)</h5>
+
+                        <h5>4</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Gyoza artesanal (6u.)</h5>
+
+                        <h5>4.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Tempura de langostino</h5>
+
+                        <h5>6</h5>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- BEBIDA -->
+           <h2 class="menu-name" id='menu-bebida'>Bebidas</h2>
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-4">
+                <label for="collapsible-4" class="bebida-text menu-label">Agua & Refresco</label>
+                <div class="collapsible-text bebida-text--price">
+                    <div class="menu-price">
+                        <h5>Refresco</h5>
+                        <h5>1.7</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Agua</h5>
+                        <h5>1.4</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Agua con gas Perrier</h5>
+                        <h5>2</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Zumo de melocoton / piña</h5>
+                        <h5>1.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Zumo de naranja exprimido</h5>
+                        <h5>2</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Red Bull</h5>
+                        <h5>2</h5>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-5">
+                <label for="collapsible-5" class="bebida-text menu-label">Cerveza</label>
+                <div class="collapsible-text bebida-text--price">
+                    <div class="menu-price">
+                        <h5>Caña</h5>
+
+                        <h5>1.4</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Doble</h5>
+
+                        <h5>1.6</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Jarra 500ml</h5>
+
+                        <h5>2</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Amstel</h5>
+
+                        <h5>1.6</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Amstel Radler</h5>
+
+                        <h5>1.7</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Amstel Oro Tostada</h5>
+
+                        <h5>2</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Amstel sin alcohol</h5>
+
+                        <h5>1.8</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Amstel Oro Tostada sin alcohol</h5>
+
+                        <h5>2</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Heineken</h5>
+
+                        <h5>2</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Estrella Galicia</h5>
+
+                        <h5>2</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Águila Sin Filtrar</h5>
+
+                        <h5>2.2</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Cider: Ladrón de Manzana</h5>
+
+                        <h5>2.2</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-6">
+                <label for="collapsible-6" class="bebida-text menu-label">Vino</label>
+                <div class="collapsible-text bebida-text--price">
+                    <div class="menu-price">
+                        <h5>Tinto de la casa</h5>
+
+                        <h5>1.5/copa  6/botella</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Tinto D.O. Rioja Tempranillo</h5>
+
+                        <h5>2.5/copa  8/botella</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Blanco D.O. Rueda Verdejo</h5>
+
+                        <h5>2.5/copa  8/botella</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-7">
+                <label for="collapsible-7" class="bebida-text menu-label">Cóctel</label>
+                <div class="collapsible-text bebida-text--price">
+                    <div class="menu-price">
+                        <h5>NEGRONI</h5>
+
+                        <h5>5.5</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>JÄGER BOMB</h5>
+
+                        <h5>5.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>MOJITO</h5>
+
+                        <h5>6</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>CUBA LIBRE</h5>
+
+                        <h5>6</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>LONG ISLAND ICED TEA</h5>
+
+                        <h5>7</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- cafe -->
+            <h2 class="menu-name">Cafe y Postres</h2>
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-9">
+                <label for="collapsible-9" class="cafe-text menu-label">Cafés</label>
+                <div class="collapsible-text cafe-text--price">
+                    <div class="menu-price">
+                        <h5>Solo</h5>
+
+                        <h5>1.2</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Americano</h5>
+
+                        <h5>1.2</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Cortado</h5>
+
+                        <h5>1.4</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Con leche</h5>
+
+                        <h5>1.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Doble</h5>
+
+                        <h5>1.5</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Bombón</h5>
+
+                        <h5>1.4</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Cappuccino</h5>
+
+                        <h5>2</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Mocha</h5>
+
+                        <h5>2.5</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="collapsible">
+                <input type="checkbox" id="collapsible-10">
+                <label for="collapsible-10" class="cafe-text menu-label">Postres</label>
+                <div class="collapsible-text cafe-text--price">
+                    <div class="menu-price">
+                        <h5>Helado</h5>
+
+                        <h5>-</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Flan</h5>
+
+                        <h5>-</h5>
+                    </div>
+                    <div class="menu-price">
+                        <h5>Coulan</h5>
+
+                        <h5>-</h5>
+                    </div>
+
+                    <div class="menu-price">
+                        <h5>Mochi de Matcha</h5>
+
+                        <h5>-</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- contact -->
+    <section class="contact" id="contacto">
+        <div class="contact-text">
+            <span>Reserva o Pregunta?</span>
+            <h5>Contacta con nosotros por Whatsapp o llama:</h5>
+        </div>
+        <a href="https://wa.me/34604151967" class="btn" target="_blank">Manda Mensage</a>
+    </section>
+    <!-- map -->
+    <div id="map"></div>
+    
+    <!-- footer -->
+    <section class="info" id="info">
+        <div class="info-box">
+            <h3>Taberna Ever</h3>
+            <p>Horario 8h - 23h</p>
+            <div class="social">
+                <a href="#" class="text-decoration-none"><i class='bx bxl-google'></i></a>
+                <a href="https://instagram.com/tabernaever?igshid=YmMyMTA2M2Y=" class="text-decoration-none" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100088865439552" class="text-decoration-none" target="_blank"><i class='bx bxl-facebook' ></i></a>
+            </div>
+        </div>
+
+        <div class="info-box footer-carta">
+            <h3>Carta</h3>
+            <li><a href="#menu-comida" class="text-decoration-none">Tapas | Desayuno y Bocadillos</a></li>
+            <li><a href="#menu-bebida" class="text-decoration-none">Cerveza y Bebida</a></li>
+        </div>
+
+        <div class="info-box address">
+            <h3>Ubicación</h3>
+            <i class='bx bxs-map'><span>Pla. Poeta Salvador Rueda, 3 | 46009 València
+            </span></i>
+            <i class='bx bxl-whatsapp'><span>604 151 967</span></i>
+            <i class='bx bxl-facebook' ><span>tabernaever@gmail.com</span></i>
+        </div>
+    </section>
+
+    <section class="sign">
+        <p>Hecha en <a class="text-decoration-none">Filledapril</a></p>
+    </section>
+    
+    <script src="main.js"></script>
+    <!-- font -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEXj0wsUq31cT3KVzFOC3CaCMtcStDzuw&callback=initMap&v=weekly" defer></script>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
