@@ -123,6 +123,10 @@ header {
 .menu-name {
     margin-top: 1rem;
 }
+
+.menu-name--alergenos {
+    color: var(--main-color);
+}
 .collapsible {
     width: 80%;
     margin: 0;
@@ -147,13 +151,15 @@ header {
     z-index: 80;
 }
 
-.collapsible .bebida-text, .collapsible .bebida-text--price .menu-price > h5 {
+.collapsible .bebida-text, .collapsible .bebida-text--price .menu-price > h5, 
+.collapsible .alergenos-text, .collapsible .alergenos-text--price .menu-price > h5 {
     color: var(--main-color);
 }
 
 .collapsible .cafe-text, .collapsible .cafe-text--price .menu-price > h5 {
     color: var(--text-color);
 }
+
 
 .collapsible label::after {
     content: "";
