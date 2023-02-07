@@ -120,6 +120,20 @@ header {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+.sushi-link {
+    color: #CCCC99;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.sushi-link:hover {
+    color: #990033;
+}
+
+.sushi-link--icon {
+    color: #990033;
+}
 .menu-name {
     margin-top: 1rem;
 }
@@ -259,6 +273,11 @@ header {
     align-items: center;
     /* gap: 2px; */
 }
+
+.sushi-footer--h3 {
+    color: #CCCC99;
+}
+
 
 .info-box h3 {
    margin: 0 0 1rem 0;
