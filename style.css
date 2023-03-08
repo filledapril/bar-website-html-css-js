@@ -57,7 +57,7 @@ header {
     padding-top: 0;
     margin-top: 0;
     margin-bottom: 10px;
-    width: min(30vw, 200px);
+    width: min(30vw, 100px);
 }
 
 .navbar {
@@ -122,7 +122,7 @@ header {
 }
 
 .sushi-link {
-    color: #CCCC99;
+    color: #1e1c2a;
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
@@ -132,7 +132,7 @@ header {
 }
 
 .sushi-link--icon {
-    color: #990033;
+    color: #1e1c2a;
 }
 .menu-name {
     margin-top: 1rem;
